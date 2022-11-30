@@ -1,0 +1,132 @@
+{
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "i18n-ally.pathMatcher": "{locale}.json",
+  "i18n-ally.enabledFrameworks": [
+    "vue",
+    "vscode",
+    "general"
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#212426",
+    "editor.background": "#151718",
+    "sideBar.background": "#212426",
+    "editorCursor.foreground": "#38add9",
+    "editorRuler.foreground": "#1c353e",
+    "editor.lineHighlightBackground": "#151718",
+    "editor.selectionBackground": "#1c353e",
+    "editor.selectionHighlightBackground": "#1c353e"
+  },
+  "workbench.colorTheme": "Monokai GRS",
+  "editor.fontFamily": "Monaco",
+  "editor.fontSize": 13,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [
+    80
+  ],
+
+  // EDITOR
+  // ----------------------------------------
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "editor.codeActionsOnSave": {
+    // https://github.com/microsoft/vscode-eslint/blob/master/README.md#release-notes
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  // ESLINT
+  // ----------------------------------------
+  "eslint.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.trace.server": "verbose",
+  "eslint.options": {
+    "extensions": [
+      ".html",
+      ".js",
+      ".ts",
+      ".vue"
+    ]
+  },
+  // VETUR
+  // Disable rules if user has extension installed and enabled.
+  // ----------------------------------------
+  "vetur.validation.template": false,
+  "vetur.validation.style": false,
+  "vetur.format.defaultFormatter.html": "none",
+  "vetur.format.defaultFormatter.css": "none",
+  "vetur.format.defaultFormatter.scss": "none",
+  "vetur.format.defaultFormatter.js": "none",
+  "vetur.format.defaultFormatter.ts": "none",
+  // STYLELINT
+  // ----------------------------------------
+  "stylelint.enable": true,
+  "css.validate": false,
+  "scss.validate": false,
+  // "stylelint.validate": ["css", "less", "postcss", "vue"], // Add vue files
+  "stylelint.validate": ["css", "less", "postcss"], // Add vue files
+
+
+  // HTML
+  // ----------------------------------------
+  "html.format.enable": false,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "vue-html": "html"
+  },
+  // FILES
+  // ----------------------------------------
+  "files.exclude": {
+    "**/*.log": true,
+    "**/*.log*": true,
+    "**/dist": true,
+  },
+  "files.associations": {
+    ".babelrc": "jsonc",
+    ".eslintrc": "jsonc",
+    ".markdownlintrc": "jsonc",
+    "*.config.js": "javascript",
+    "*.spec.js": "javascript",
+    "*.vue": "vue",
+    "*.inky-slim": "slim"
+  },
+  // The default end of line character. Use \n for LF and \r\n for CRLF.
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "explorer.confirmDragAndDrop": false,
+  "i18n-ally.displayLanguage": "cs",
+  "explorer.confirmDelete": false,
+  "deepl.apiKey": "",
+  "[html]": {
+    "editor.defaultFormatter": "mohd-akram.vscode-html-format"
+  },
+  "explorer.autoReveal": "focusNoScroll",
+  "[ruby]": {
+    "editor.defaultFormatter": "misogi.ruby-rubocop"
+  },
+  "stylelint.snippet": [
+    "css",
+    "less",
+    "postcss",
+    "scss",
+    "sass"
+  ],
+}
